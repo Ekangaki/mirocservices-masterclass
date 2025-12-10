@@ -29,13 +29,13 @@ docker login
 2. Build & push images (run from repo root):
 
    ```bash
-   docker build -t thallavi/ecommerce-ui:latest ./ecommerce-ui && docker push thallavi/ecommerce-ui:latest
-   docker build -t thallavi/product-catalog:latest ./product-catalog && docker push thallavi/product-catalog:latest
-   docker build -t thallavi/product-inventory:latest ./product-inventory && docker push thallavi/product-inventory:latest
-   docker build -t thallavi/order-management:latest ./order-management && docker push thallavi/order-management:latest
-   docker build -t thallavi/shipping-and-handling:latest ./shipping-and-handling && docker push thallavi/shipping-and-handling:latest
-   docker build -t thallavi/profile-management:latest ./profile-management && docker push thallavi/profile-management:latest
-   docker build -t thallavi/contact-support-team:latest ./contact-support-team && docker push thallavi/contact-support-team:latest
+   docker build -t ekangaki/ecommerce-ui:latest ./ecommerce-ui && docker push ekangaki/ecommerce-ui:latest
+   docker build -t ekangaki/product-catalog:latest ./product-catalog && docker push ekangaki/product-catalog:latest
+   docker build -t ekangaki/product-inventory:latest ./product-inventory && docker push ekangaki/product-inventory:latest
+   docker build -t ekangaki/order-management:latest ./order-management && docker push ekangaki/order-management:latest
+   docker build -t ekangaki/shipping-and-handling:latest ./shipping-and-handling && docker push ekangaki/shipping-and-handling:latest
+   docker build -t ekangaki/profile-management:latest ./profile-management && docker push ekangaki/profile-management:latest
+   docker build -t ekangaki/contact-support-team:latest ./contact-support-team && docker push ekangaki/contact-support-team:latest
    ```
 
 3. We can start these services by using docker-compose
