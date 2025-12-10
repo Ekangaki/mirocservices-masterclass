@@ -7,7 +7,7 @@ on:
     branches: [ main, master ]
 
 env:
-  DOCKER_HUB_USER: thallavi
+  DOCKER_HUB_USER: ekangaki
 
 jobs:
   build-and-push:
